@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D72535551625402400911247 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F9A408162536B600456BB9 /* MainWindow.xib */; };
 		D7F9A3F21625363000456BB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9A3F11625363000456BB9 /* UIKit.framework */; };
 		D7F9A3F41625363000456BB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9A3F31625363000456BB9 /* Foundation.framework */; };
 		D7F9A3F61625363000456BB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9A3F51625363000456BB9 /* CoreGraphics.framework */; };
 		D7F9A3FC1625363000456BB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7F9A3FA1625363000456BB9 /* InfoPlist.strings */; };
 		D7F9A3FE1625363000456BB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F9A3FD1625363000456BB9 /* main.m */; };
 		D7F9A4021625363000456BB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F9A4011625363000456BB9 /* AppDelegate.m */; };
-		D7F9A409162536B600456BB9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F9A408162536B600456BB9 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F9A3FC1625363000456BB9 /* InfoPlist.strings in Resources */,
-				D7F9A409162536B600456BB9 /* MainWindow.xib in Resources */,
+				D72535551625402400911247 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +259,7 @@
 				D7F9A4071625363000456BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
