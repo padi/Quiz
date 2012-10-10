@@ -13,6 +13,7 @@
 		D7F9A3FC1625363000456BB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7F9A3FA1625363000456BB9 /* InfoPlist.strings */; };
 		D7F9A3FE1625363000456BB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F9A3FD1625363000456BB9 /* main.m */; };
 		D7F9A4021625363000456BB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F9A4011625363000456BB9 /* AppDelegate.m */; };
+		D7F9A409162536B600456BB9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F9A408162536B600456BB9 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,13 @@
 		D7F9A3F11625363000456BB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D7F9A3F31625363000456BB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D7F9A3F51625363000456BB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D7F9A3F91625363000456BB9 /* Quiz-Info.plist */ = {isa = PBXFileReference; path = "Quiz-Info.plist"; sourceTree = "<group>"; };
+		D7F9A3F91625363000456BB9 /* Quiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz-Info.plist"; sourceTree = "<group>"; };
 		D7F9A3FB1625363000456BB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7F9A3FD1625363000456BB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D7F9A3FF1625363000456BB9 /* Quiz-Prefix.pch */ = {isa = PBXFileReference; path = "Quiz-Prefix.pch"; sourceTree = "<group>"; };
-		D7F9A4001625363000456BB9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7F9A3FF1625363000456BB9 /* Quiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quiz-Prefix.pch"; sourceTree = "<group>"; };
+		D7F9A4001625363000456BB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7F9A4011625363000456BB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7F9A408162536B600456BB9 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				D7F9A4001625363000456BB9 /* AppDelegate.h */,
 				D7F9A4011625363000456BB9 /* AppDelegate.m */,
 				D7F9A3F81625363000456BB9 /* Supporting Files */,
+				D7F9A408162536B600456BB9 /* MainWindow.xib */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F9A3FC1625363000456BB9 /* InfoPlist.strings in Resources */,
+				D7F9A409162536B600456BB9 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
